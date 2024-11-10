@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+        
+    </style>
+  </head>
+  <body>
+    <div class="main-content">
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div>
+            <h1 style="text-align: center; color: green;">Contact Form</h1>
+            <form name="form1">
+                Name : <br>
+              <input type="text" name="name" />
+              <br>
+              Email :
+               <br>
+              <input type="text" name="email" />
+              <br>
+              Phone Number :
+              <br>
+              <input type="text" name="contact" />
+              <br>
+              Message : <br>
+              <input type="text" name="message" />
+              <br>
+              <button type="button" onclick="handleSubmit()">Submit</button>
+            </form>
+        </div>
+        </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+
+        <table id="root" border="1">
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Message</th>
+          </tr>
+        </table>
+      </div>
+     
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
